@@ -1,16 +1,16 @@
 
-*{
+/* Reset CSS  USEM FAÇAM SEMPRE */* {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */    
     box-sizing: border-box;
 }
-
 .header {
-background-color: white  
+    /* largura  100% é sempre o padrão de um container*/   
+     width: 100%;
+    /* altura */    
+    height: 180px;
+    /* cor de fundo */    
+    background-color: #000000;
+    /* cor do texto */    
+    color: #FFFFFF;
 }
-
-.header-title{
-    color: black;
-
-}
-
