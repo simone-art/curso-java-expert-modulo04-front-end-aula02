@@ -2,14 +2,18 @@ div{
 
     width: 80%;
     height: 100px;
-    background-color: #000000;
+
+    color: #dc143c;
     margin: 20px;
     padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid #0000;
+    border-top: 10px solid #900;
     
     
 }
 
 p{
-    color: #dcdcdc;
+    color: #dc143c;
 
 }
