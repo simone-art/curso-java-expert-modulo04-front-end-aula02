@@ -5,22 +5,12 @@
     box-sizing: border-box;
 }
 
-.header{
-
-    width: 80%;
-    height: 100px;
-
-    color: #dc143c;
-    margin: 20px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 10px solid #0000;
-    border-top: 10px solid #900;
-    
-    
+.header {
+background-color: white  
 }
 
-p{
-    color: #dc143c;
+.header-title{
+    color: black;
 
 }
+
