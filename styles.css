@@ -4,6 +4,10 @@
     /* padding: 0; */    
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .header {
     /* largura  100% é sempre o padrão de um container*/   
      width: 100%;
