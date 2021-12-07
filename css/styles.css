@@ -8,6 +8,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 .header {
     /* largura  100% é sempre o padrão de um container*/   
      width: 100%;
@@ -75,6 +76,8 @@ body{
 .btn:hover{
     background-color: transparent;
 }
+
+
 
 .hero{
     width: 100px;
