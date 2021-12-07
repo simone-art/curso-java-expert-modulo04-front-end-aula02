@@ -83,7 +83,7 @@ body{
     width: 100px;
     /*vh ocupa a altura do viewport*/
     height: calc(100vh-80px);
-    background-image: url(../Aula02-Front/images/pexels-hasan-albari-1229861.jpg);
+    background-image: url(../images/pexels-hasan-albari-1229861.jpg);
     /* background-repeta nao permite a repetição da imagem de fundo*/
     background-repeat: no-repeat;
     /* background-cover fazer com que a imagem cubra a fundo da tela*/
