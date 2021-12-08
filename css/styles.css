@@ -97,7 +97,8 @@ body {
     height: calc(100vh - 80px);
 
     /* inserindo imagem de fundo */
-    background-image: url(../images/pexels-hasan-albari-1229861.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(../images/pexels-cottonbro-7437088.jpg);
 
     /* não permite a repetição da imagem de fundo */
     background-repeat: no-repeat;
