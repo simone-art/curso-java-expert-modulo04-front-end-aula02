@@ -1,71 +1,82 @@
-
-/* Reset CSS  USEM FAÇAM SEMPRE */* {
+/* Reset CSS  USEM FAÇAM SEMPRE */
+* {
     margin: 0;
-    /* padding: 0; */    
+    /* padding: 0; */
     box-sizing: border-box;
 }
 
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 .header {
-    /* largura  100% é sempre o padrão de um container*/   
-     width: 100%;
-    /* altura */    
-    height: 180px;
-    /* cor de fundo */    
+    /* largura  100% é sempre o padrão de um container*/
+    width: 100%;
+
+    /* altura */
+    height: 80px;
+
+    /* cor de fundo */
     background-color: #000000;
-    /* cor do texto */    
+
+    /* cor do texto */
     color: #FFFFFF;
 
-    /*Usando flexBox* só funciona no container pai*/
-    /*O padrão é que os elementos fiquem um ao lado do outro- flex-direction: row*/
-     /*Quando usamos row align item alinha verticalmente*/
-      /*Quando usamos row justify-content alinha horizontalmente*/
+    /* posicionamento dos filhos do header - FlexBox - cuidado o valor a ser usado é flex
+        Só funciona quando aplicado ao container PAI....
+        O padrão é que os elementos fiquem um ao lado do outro - flex-direction: row
+        Quando usamos row - align-item alinha verticalmente
+        Quando usamos row - justify-content alinha horizontalmente
+    */
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding: 0 20px;    
 }
 
-.header-title{
+.header-title {
     font-size: 32px;
     text-transform: uppercase;
 }
 
-.header-logo{
-    color:#dc143c;
+.header-logo {
+    color: #dc143c;   
 }
 
-.menu ul{
-    /* tirar marcadores da lista*/
+.menu ul {
+    /* tirar marcadores das listas */
     list-style: none;
+    /* deixar as opções do menu uma ao lado da outra */
     display: flex;
-    
 }
 
-.menu-item{
-    margin: 0 20px;
+.menu-item {
+    /* alterando espaço entre as opções do menu */
+    margin: 0 15px;
 }
 
-.menu-item a{
-    color: white;
+.menu-item a {
+    /* cor dos links */
+    color: #fff;
+
+    /* tirar o sublinhado */
     text-decoration: none;
-    font-size: 15px;
-}
 
-/* hover coloca uma cor que vai ser vista quando o mousse pasar sobre o link*/
-.menu-item a:hover{
+    /* diminuir a fonte */
+    font-size: 14px;
 
-    color: #dc143c;
-    /* peso da fonte*/
+    /* peso da fonte */
     font-weight: 900;
 }
 
- /* class para estilizar o login*/
- /* transition da um delay na transição*/
-.btn{
+/* a regra só será aplicada quando passar o mouse sobre os links */
+.menu-item a:hover {
+    color: #dc143c;
+}
+
+/* classe para estilizar o login */
+.btn {
     padding: 5px 30px;
     border: 1px solid #dc143c;
     border-radius: 7px;
@@ -73,20 +84,30 @@ body{
     transition: .5s;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: transparent;
 }
 
+/********************* fim do header ************************/
 
+/********************* hero *****************/
+.hero {
+    width: 100%;
+    /* vh usa a altura do viewport  */
+    height: calc(100vh - 80px);
 
-.hero{
-    width: 100px;
-    /*vh ocupa a altura do viewport*/
-    height: calc(100vh-80px);
+    /* inserindo imagem de fundo */
     background-image: url(../images/pexels-hasan-albari-1229861.jpg);
-    /* background-repeta nao permite a repetição da imagem de fundo*/
+
+    /* não permite a repetição da imagem de fundo */
     background-repeat: no-repeat;
-    /* background-cover fazer com que a imagem cubra a fundo da tela*/
+
+    /* fazer com que a imagem de fundo cubra a tela */
     background-size: cover;
-    background-position: 50px;
+
+    /* posicionar o ponto central da imagem com o ponto central da tela */
+    background-position: 50%;
+
+    
 }
+
