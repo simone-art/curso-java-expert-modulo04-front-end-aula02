@@ -106,8 +106,21 @@ body {
     background-size: cover;
 
     /* posicionar o ponto central da imagem com o ponto central da tela */
-    background-position: 50%;
-
-    
+    background-position: 50%;   
 }
 
+.hero-title{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    width: 30vw;
+}
+
+.hero-link{
+     color: #fff;
+     text-decoration: none;
+     font-size: 22px;
+     border: 1px solid #fff;
+     padding: 15px 60px;
+     border-radius: 70px;
+}
