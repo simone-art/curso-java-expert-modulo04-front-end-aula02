@@ -107,6 +107,17 @@ body {
 
     /* posicionar o ponto central da imagem com o ponto central da tela */
     background-position: 50%;   
+    
+     /* espacamento entre o conteúdo interno e a margen esquerda */
+     padding-left: 50px;
+
+      /* flex para posicionar o conteúdo */
+      /* flex column para posicionar o conteúdo, um abaixo do outro */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
 }
 
 .hero-title{
