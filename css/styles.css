@@ -125,6 +125,9 @@ body {
     text-transform: uppercase;
     margin-bottom: 50px;
     width: 30vw;
+    /* line-heigth serve para distanciar o texto */
+    /*text-align: center;
+    line-height: 50px; */
 }
 
 .hero-link{
