@@ -1,3 +1,10 @@
+
+/* Variáveis na Css */
+:root{
+    --text-light: #ffff;
+    --bg-primary:#000;
+}
+
 /* Reset CSS  USEM FAÇAM SEMPRE */
 * {
     margin: 0;
@@ -18,10 +25,10 @@ body {
     height: 80px;
 
     /* cor de fundo */
-    background-color: #000000;
+    background-color: var(--bg-primary);
 
     /* cor do texto */
-    color: #FFFFFF;
+    color: var(--text-light);
 
     /* posicionamento dos filhos do header - FlexBox - cuidado o valor a ser usado é flex
         Só funciona quando aplicado ao container PAI....
