@@ -161,7 +161,7 @@ body {
 }
 
 /*services*/
-.services-container{
+.services-container, .portfolio{
     width: 95%;
     /* min-height define a altura mínima e faz ajuste entre os elementos*/
     min-height: 90vh;
@@ -210,4 +210,10 @@ body {
 .services-text{
     text-align: center;
     line-height: 28px;
+}
+
+/* portfolio*/
+.portfolio{
+    background-color: #000;
+    width: 100%;
 }
