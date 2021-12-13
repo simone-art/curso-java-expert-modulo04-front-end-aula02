@@ -250,3 +250,76 @@ body {
 .rotation-right{
     transform: rotate(15deg);
 }
+
+.trabalhos-title{
+    text-align: center;
+    margin: 30px 0 20px;
+    font-size: 35px;
+}
+
+.trabalhos-title{
+    width: 100%;
+    height: 20vh;
+}
+
+#square{
+    width: 350px;
+    height: 350px;
+    border: 10px solid grey;
+    border-radius: 20px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 100px;
+    
+}
+
+#square-two{
+    width: 250px;
+    height: 250px;
+    border: 10px solid grey;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+
+.square-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+#square-item{
+    width: 175px;
+    height: 175px;
+    border: 10px solid grey;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: -50px;
+    
+}
+
+#square-three{
+    width: 125px;
+    height: 125px;
+    border: 10px solid grey;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
+.square-img-item{
+    width: 105px;
+    height: 110px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
