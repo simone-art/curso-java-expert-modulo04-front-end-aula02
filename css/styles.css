@@ -262,6 +262,21 @@ body {
     height: 20vh;
 }
 
+#trbalho-container{
+    width: 95%;
+    /* min-height define a altura mínima e faz ajuste entre os elementos*/
+    min-height: 90vh;
+    /*border: 1px solid #000;*/
+    /*usamos margem con valor automático para centralizar o container-USADO PARA CONTAINERS*/
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* space evenly gera o mesmo espaçamento entre os elementos*/
+    justify-content: space-evenly;
+}
+
+
 #square{
     width: 350px;
     height: 350px;
@@ -323,3 +338,35 @@ body {
     margin-left: 15px;
 
 }
+
+.div-second-item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    margin-top: -150px;
+}
+
+
+
+#square-item-two{
+    width: 175px;
+    height: 175px;
+    border: 10px solid grey;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: -50px;
+}
+
+.square-item-second{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container{
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px;
+    background-color: pink;
+}
+
+
